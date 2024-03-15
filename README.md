@@ -73,3 +73,11 @@ In 'src' folder, use de command to build the code (it will create the folder tar
 In this case, my application is already builded, so you can only access 'target/debug' folder and execute the binary, or use the command bellow:
 
 `./target/debug/calculator`
+
+Install cargo-watch to automatize the compilation process while you are coding:
+
+`cargo install cargo-watch`
+
+Then, must you run the command bellow and your code you be compiled and executed after each save you do in your 'main.rs' file:
+
+`cargo watch -x run`
